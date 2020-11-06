@@ -5,7 +5,7 @@
 * Autosens-это алгоритм, который смотрит на отклонения глюкозы в крови (позитивное/отрицательное/нейтральное).
 * Он попытается определить, насколько вы чувствительны/резистентны на основании этих отклонений.
 * Реализация oref в ** OpenAPS ** выполняется на основе комбинации данных за 24 и 8 часов. Он использует тот, который является более чувствительным.
-* In versions prior to AAPS 2.7 user had to choose between 8 or 24 hours manually.
+* В версиях AAPS до 2.7 пользователь должен был вручную выбрать между 8 или 24 часами.
 * From AAPS 2.7 on Autosens in AAPS will switch between a 24 and 8 hours window for calculating sensitivity. It will pick which ever one is more sensitive. 
 * If users have come from oref1 they will probably notice the system may be less dynamic to changes, due to the varying of either 24 or 8 hours of sensitivity.
 * Changing a cannula or changing a profile will reset Autosens ratio back to 0%.
